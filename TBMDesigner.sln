@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBMDesignerDomain", "TBMDesignerDomain\TBMDesignerDomain.csproj", "{75F629A8-A97B-418A-904D-542AB0491C37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBMDesignerFunctions", "TBMDesignerFunctions\TBMDesignerFunctions.csproj", "{692A4295-E247-4E57-9A9D-4E63A607E4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBMDesigner.Dynamo", "TBMDesigner.Dynamo\TBMDesigner.Dynamo.csproj", "{CDF4C3F3-0A17-430F-B879-A3A2EE5ED260}"
+	ProjectSection(ProjectDependencies) = postProject
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7} = {692A4295-E247-4E57-9A9D-4E63A607E4A7}
+		{75F629A8-A97B-418A-904D-542AB0491C37} = {75F629A8-A97B-418A-904D-542AB0491C37}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBMDesigner.Grasshopper", "TBMDesigner.Grasshopper\TBMDesigner.Grasshopper.csproj", "{DC517F79-593E-4C95-AAC5-94B36879F57F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7} = {692A4295-E247-4E57-9A9D-4E63A607E4A7}
+		{75F629A8-A97B-418A-904D-542AB0491C37} = {75F629A8-A97B-418A-904D-542AB0491C37}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75F629A8-A97B-418A-904D-542AB0491C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F629A8-A97B-418A-904D-542AB0491C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F629A8-A97B-418A-904D-542AB0491C37}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{75F629A8-A97B-418A-904D-542AB0491C37}.Debug|x64.Build.0 = Debug|Any CPU
+		{75F629A8-A97B-418A-904D-542AB0491C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F629A8-A97B-418A-904D-542AB0491C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F629A8-A97B-418A-904D-542AB0491C37}.Release|x64.ActiveCfg = Release|Any CPU
+		{75F629A8-A97B-418A-904D-542AB0491C37}.Release|x64.Build.0 = Release|Any CPU
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7}.Debug|x64.Build.0 = Debug|Any CPU
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7}.Release|x64.ActiveCfg = Release|Any CPU
+		{692A4295-E247-4E57-9A9D-4E63A607E4A7}.Release|x64.Build.0 = Release|Any CPU
+		{CDF4C3F3-0A17-430F-B879-A3A2EE5ED260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF4C3F3-0A17-430F-B879-A3A2EE5ED260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF4C3F3-0A17-430F-B879-A3A2EE5ED260}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CDF4C3F3-0A17-430F-B879-A3A2EE5ED260}.Debug|x64.Build.0 = Debug|Any CPU
+		{CDF4C3F3-0A17-430F-B879-A3A2EE5ED260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF4C3F3-0A17-430F-B879-A3A2EE5ED260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF4C3F3-0A17-430F-B879-A3A2EE5ED260}.Release|x64.ActiveCfg = Release|Any CPU
+		{CDF4C3F3-0A17-430F-B879-A3A2EE5ED260}.Release|x64.Build.0 = Release|Any CPU
+		{DC517F79-593E-4C95-AAC5-94B36879F57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC517F79-593E-4C95-AAC5-94B36879F57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC517F79-593E-4C95-AAC5-94B36879F57F}.Debug|x64.ActiveCfg = Debug|x64
+		{DC517F79-593E-4C95-AAC5-94B36879F57F}.Debug|x64.Build.0 = Debug|x64
+		{DC517F79-593E-4C95-AAC5-94B36879F57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC517F79-593E-4C95-AAC5-94B36879F57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC517F79-593E-4C95-AAC5-94B36879F57F}.Release|x64.ActiveCfg = Release|x64
+		{DC517F79-593E-4C95-AAC5-94B36879F57F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {864E4176-DE76-4DBC-B91B-49DD91AA9100}
+	EndGlobalSection
+EndGlobal

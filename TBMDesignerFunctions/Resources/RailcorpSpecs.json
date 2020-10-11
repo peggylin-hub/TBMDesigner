@@ -1,0 +1,64 @@
+{
+  "Name": "Railcorp",
+  "TrackSpecs": [
+    {
+      "Type": "Plain Line - Wooden",
+      "LateralTangentTolerance": 25,
+      "LateralCurveTolerance": 35,
+      "RailWearLateral": 15,
+      "VerticalTrackTolerancePositive": 100,
+      "VerticalTrackToleranceNegative": 150,
+      "SuperTolerance": 10
+    },
+    {
+      "Type": "Plain Line - Concrete",
+      "LateralTangentTolerance": 15,
+      "LateralCurveTolerance": 25,
+      "RailWearLateral": 15,
+      "VerticalTrackTolerancePositive": 100,
+      "VerticalTrackToleranceNegative": 150,
+      "SuperTolerance": 10
+    },
+    {
+      "Type": "Plain Line - Slab Track",
+      "LateralTangentTolerance": 10,
+      "LateralCurveTolerance": 20,
+      "RailWearLateral": 15,
+      "VerticalTrackTolerancePositive": 50,
+      "VerticalTrackToleranceNegative": 50,
+      "SuperTolerance": 10
+    },
+    {
+      "Type": "Platform (New Construction) - Standard Access",
+      "LateralTangentTolerance": 6,
+      "LateralCurveTolerance": 6,
+      "VerticalTrackTolerancePositive": 50,
+      "VerticalTrackToleranceNegative": 0,
+      "SuperTolerance": 5
+    },
+    {
+      "Type": "Platform (New Construction)  - Level Access",
+      "LateralTangentTolerance": 6,
+      "LateralCurveTolerance": 6,
+      "VerticalTrackTolerancePositive": 15,
+      "VerticalTrackToleranceNegative": 15,
+      "SuperTolerance": 5
+    },
+    {
+      "Type": "Platform (Maintenance Works) - Standard Access",
+      "LateralTangentTolerance": 15,
+      "LateralCurveTolerance": 15,
+      "VerticalTrackTolerancePositive": 50,
+      "VerticalTrackToleranceNegative": 0,
+      "SuperTolerance": 6
+    },
+    {
+      "Type": "Platform (Maintenance Works) - Level Access",
+      "LateralTangentTolerance": 15,
+      "LateralCurveTolerance": 15,
+      "VerticalTrackTolerancePositive": 15,
+      "VerticalTrackToleranceNegative": 25,
+      "SuperTolerance": 6
+    }
+  ]
+}
